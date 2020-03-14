@@ -301,10 +301,19 @@ margin:auto;
      position: relative;
      width:fit-content;
  }
+      .fixed-nav-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 9999;
+            width: 100%;
+            height: 50px;
+        }
       
     </style>
   </head>
 <header>
+  <nav class="fixed-nav-bar">
       <div id = "connav">
         <ul>
             <li><a href= "index.html ">Home</a> </li>
@@ -315,6 +324,7 @@ margin:auto;
             <li><a href="contact.html">Contact</a></li>
                
     </ul>
+        </nav>
     &nbsp;
       </div>
     </header>&nbsp;&nbsp;&nbsp;
