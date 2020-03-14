@@ -206,16 +206,6 @@ header {
             body {
                 background-color: maroon;
             }
-		.turnDeviceNotification {
-  position:fixed;
-  top: 0;
-  left:0;
-  height:100%;
-  width:100%;
-  display: none;
-background-image:url('../images/turnDevice.jpg');
-  background-size:cover;
-}
         }
     </style>
     
@@ -234,7 +224,6 @@ background-image:url('../images/turnDevice.jpg');
     </div>
 </header>
   <body> 
-	  <div class="turnDeviceNotification"></div>
        <div id = "main"> 
             <div class="typewriter">
                     <div class="typewriter-text">CultureFest 2020</div>
@@ -263,29 +252,5 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 8000); // Change image every 8 seconds
 }
-	
-	jQuery(window).bind('orientationchange', function(e) {
- switch ( window.orientation ) {
-  case 0:
-    $('.turnDeviceNotification').css('display', 'none');
-    // The device is in portrait mode now
-  break;
-
-  case 180:
-    $('.turnDeviceNotification').css('display', 'none');
-    // The device is in portrait mode now
-  break;
-
-  case 90:
-    // The device is in landscape now
-    $('.turnDeviceNotification').css('display', 'block');
-  break;
-
-  case -90:
-    // The device is in landscape now
-    $('.turnDeviceNotification').css('display', 'block');
-  break;
- }
-});
     </script>
     </div>
