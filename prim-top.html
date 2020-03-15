@@ -4,26 +4,128 @@
     <title>CultureFest 2020</title>
     <link href="style.css"/>
     <style>
-#connav ul {
+      #connav {
+    position: relative;
+    float: right;
+}
+          #connav ul {
             list-style: none;
-            text-indent: 3%;
+            position: relative;
+            width: 360pt;
+            vertical-align: middle;
+            color: #f5f0c1;
+            float: right;
+            opacity: 1;
+            float: right;
+            margin-top: 20px;
         }
         #connav ul li {
-            background-color: gray;
-            color: white;
-            width: 218px;
-            border: 1px solid gray;
+            color: #f0e68d;
+            width: 60pt;
+            position: relative;
             text-align: center;
-            line-height: 50 px;
+            vertical-align:middle;
+            height: 40px;
             float: left;
+            opacity: 1;
         }
         #connav ul li:hover {
-            background-color: purple;
+            background-color:#f5f0c1;
+            -webkit-text-fill-color: black;
         }
         #connav a {
             text-decoration: none;
-            color: white;
+            text-align: center;
+            top: 25%;
+            color: #f5f0c1;
+            position: relative;
+            margin-left:7px;
+            margin-right:7px;
         }
+        #connav ul li a:hover {
+            color: black;
+        }
+      
+      #connav ul {
+            list-style: none;
+            position: relative;
+            vertical-align: middle;
+            width: 125%;
+            color: #f5f0c1;
+            float: right;
+            left: 15px;
+            opacity: 1;
+            float: right;
+            z-index: 1;
+        }
+        #connav ul li {
+            color: #f0e68d;
+            width: 16%;
+            position: relative;
+            text-align: center;
+            vertical-align:middle;
+            height: 40px;
+            float: left;
+            opacity: 1;
+        }
+        #connav ul li:hover {
+            background-color:#f5f0c1;
+            -webkit-text-fill-color: black;
+        }
+        #connav a {
+            text-decoration: none;
+            text-align: center;
+            top: 25%;
+            color: #f5f0c1;
+            position: relative;
+            margin-left: 7px;
+            margin-right: 7px;
+        }
+        #connav ul li a:hover {
+            color: black;
+        }
+      
+      header {
+            position: relative;
+            width: 100%;
+            float: center;
+        }
+      header {
+            position: relative;
+            width: 600px;
+            float: right;
+        }
+      
+      connav {
+    position: relative;
+    float: right;
+}
+       #connav ul li {
+            color: #f0e68d;
+            width: 16%;
+            position: relative;
+            text-align: center;
+            vertical-align:middle;
+            height: 40px;
+            float: left;
+            opacity: 1;
+        }
+        #connav ul li:hover {
+            background-color:#f5f0c1;
+        }
+        #connav a {
+            text-decoration: none;
+            text-align: center;
+            top: 25%;
+            color: #f5f0c1;
+            position: relative;
+            margin-left: 7px;
+            margin-right: 7px;
+        }
+        #connav ul li a:hover {
+            color: black;
+        }
+      
         body {
             background-image: url("cfestlogo19.png");
             font-family: 'Open Sans', sans-serif;
@@ -51,37 +153,7 @@ text-align: left;
             text-indent: -50%;
             text-align: bottom;
         }
-        #connav ul {
-            list-style: none;
-            position: absolute;
-            vertical-align: middle;
-            text-align: right;
-            width: 202%;
-            left: -3%;
-            top: -2%;
-        }
-        #connav ul li {
-            background-color:black;
-            color: white;
-            width: 8.2%;
-            position: relative;
-            border: 1px solid black;
-            text-align: center;
-            line-height: 200 px;
-            vertical-align: middle;
-            height: 55px;
-            float: left;
-        }
-        #connav ul li:hover {
-            background-color: purple;
-        }
-        #connav a {
-            text-decoration: none;
-            color: white;
-            position: absolute;
-            right: 39%;
-            top: 15px;
-        }
+        
         body {
             background-image: url("film1.jpg");
             -webkit-background-size: cover;
@@ -92,6 +164,7 @@ text-align: left;
             max-width: 100%;
             overflow-x: hidden;
             list-style: none;
+          margin-bottom: 100px;
         }
         #main {
             list-style: none;
@@ -146,32 +219,130 @@ text-align: left;
         li {
             list-style: none;
         }
+      .footer {
+            position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background: rgba(0, 0, 0, 0.3);
+        height: 80px;
+   text-align: center;
+        }
+        #social {
+            float: right;
+            position: relative;
+            right: 31px;
+        }
+        #social ul {
+            list-style: none;
+            width: 100%;
+            float: right;
+            position: relative;
+        }
+        #social ul li {
+            color: #f0e68d;
+            float: right;
+            width: 74px;
+        }
+    
+    #trad {
+        max-width: 1230px;
+        width: 1200px;
+        margin: 8px;
+    }
+
+        .submenu {
+            display: none;
+            position: relative;
+        }
+        .more:hover .submenu {
+            display: block;
+            position: relative;
+        }
+          .submenu ul {
+            list-style: none;
+            position: relative;
+            vertical-align: middle;
+            text-align: right;
+        }
+        ul.submenu li {
+            display: block;
+            color: #f5f0c1;
+            position: relative;
+            text-align: center;
+            line-height: 200 px;
+            height: 55px;
+            left: 80.7%;
+            float: right;
+            clear: left;
+            width: inherit;
+        }
+        ul.submenu li.more:hover {
+            background-color: purple;
+            display: block;
+        }
+        ul.submenu a {
+            text-decoration: none;
+            text-align: center;
+            color: white;
+        }
+ img {
+     position: relative;
+     width:fit-content;
+ }
+      .fixed-nav-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+        color: white;
+            z-index: 9999;
+            width: 100%;
+            height: 80px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+      
     </style>
   </head>
+  <header>
+  <nav class="fixed-nav-bar">
+      <div id = "connav">
+        <ul>
+            <li><a href= "index.html ">Home</a> </li>
+            <li><a href= "about.html">About</a> </li>
+            <li><a href= "pavilions.html">Pavilions</a></li>
+            <li><a href="https://docs.google.com/presentation/d/e/2PACX-1vTE1PptssnfJ75-bnKjyjQB5LjLomWYnDgewT5FIckEMF_3CAjvHbt8pa0ePwwWtmmMHm2qLsPmhqMO/pub?start=false&loop=false&delayms=60000">Event</a></li>  
+            <li><a href="team.html">Team</a></li>
+            <li><a href="contact.html">Contact</a></li>
+               
+    </ul>
+        </nav>
+    </header>&nbsp;&nbsp;&nbsp;
   <body>
     &nbsp;&nbsp; 
     &nbsp;&nbsp; 
 <div id = "main"> 
    &nbsp;
-<h1>Pacific Rim</h1>
-
-<div id="PRIM-dances"> 
-    <ul>
+<h1>Pacific Rim Pavilion Resources</h1>
+&nbsp;
+  <p>Please keep in mind that not every act's past performance could be uploaded, but these were provided by Brampton Focus</p>
+&nbsp;
+<div id="AME-dances"> 
+<ul>
         <li><div id="bomba">
 <h3>PRIM Singing</h3>
 <iframe width="90%" height="90%" src="https://www.youtube.com/embed/f_S4nvYIPzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 </div></li>
 <li><div id="chutney">
 <h3>Korean Girl Group</h3>
-<iframe width="839" height="472" src="https://www.youtube.com/embed/EW2CST1tIss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<iframe width="90%" height="90%" src="https://www.youtube.com/embed/EW2CST1tIss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 </div></li>
 <li><div id="dancehall">
 <h3>Lion Dance</h3>
-<iframe width="839" height="472" src="https://www.youtube.com/embed/C2NwHzUAPkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="90%" height="90%" src="https://www.youtube.com/embed/C2NwHzUAPkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div></li>
     <li><div id="modern">
 <h3>Modern</h3>  
-      <iframe width="839" height="472" src="https://www.youtube.com/embed/0HTpIBJUXjI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="90%" height="90%" src="https://www.youtube.com/embed/0HTpIBJUXjI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div></li>
       </ul>
 &nbsp;&nbsp;       
@@ -185,7 +356,7 @@ text-align: left;
   &nbsp;&nbsp; 
   &nbsp;&nbsp;
   &nbsp;
-  <footer>
+ <div class="footer">
         <div id="social">
           <ul>
             <li><a href = "https://www.facebook.com/"><img src="facebook2020.png" alt="facebook"></a></li>
@@ -193,5 +364,5 @@ text-align: left;
             <li><a href = "https://www.instagram.com/"><img src="instagram2020.png" alt="instagram"></a></li>
           </ul>
         </div>
-      </footer> 
+      </div> 
 </html>
