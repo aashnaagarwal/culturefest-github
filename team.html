@@ -297,10 +297,62 @@ text-align: left;
 right: 3.5%;
 
 }
+      
+      #connav {
+    position: relative;
+    float: right;
+}
+       #connav ul li {
+            color: #f0e68d;
+            width: 16%;
+            position: relative;
+            text-align: center;
+            vertical-align:middle;
+            height: 40px;
+            float: left;
+            opacity: 1;
+        }
+        #connav ul li:hover {
+            background-color:#f5f0c1;
+        }
+        #connav a {
+            text-decoration: none;
+            text-align: center;
+            top: 25%;
+            color: #f5f0c1;
+            position: relative;
+            margin-left: 7px;
+            margin-right: 7px;
+        }
+        #connav ul li a:hover {
+            color: black;
+        }
+      
+      .footer {
+        position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background: rgba(0,0,0,0.3);
+   height:80px;
+   text-align: center;
+      }
+      
+      .fixed-nav-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 9999;
+            width: 100%;
+            height: 80px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+      
 
     </style>
   </head>
 <header>
+  <nav class="fixed-nav-bar">
       <div id = "connav">
         <ul>
             <li><a href= "index.html ">Home</a> </li>
@@ -311,6 +363,7 @@ right: 3.5%;
                         <li><a href="contact.html">Contact</a></li>   
     </ul>
       </div>
+  </nav>
     </header>
       &nbsp;&nbsp; &nbsp;&nbsp; 
       <body>
@@ -444,7 +497,7 @@ right: 3.5%;
   </body>
   &nbsp;&nbsp;
   &nbsp;&nbsp;
-  <footer class="social-footer">
+  <div class="footer">
         <div id="social">
           <ul>
             <li><a href = "https://www.facebook.com/"><img src="facebook2020.png" alt="facebook"></a></li>
@@ -452,5 +505,5 @@ right: 3.5%;
             <li><a href = "https://www.instagram.com/"><img src="instagram2020.png" alt="instagram"></a></li>
           </ul>
         </div>
-      </footer>
+      </div>
 </html>
