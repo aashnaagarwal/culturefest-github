@@ -8,7 +8,22 @@
             list-style: none;
             text-indent: 3%;
         }
-        
+        #connav ul li {
+            background-color: gray;
+            color: white;
+            width: 218px;
+            border: 1px solid gray;
+            text-align: center;
+            line-height: 50 px;
+            float: left;
+        }
+        #connav ul li:hover {
+            background-color: purple;
+        }
+        #connav a {
+            text-decoration: none;
+            color: white;
+        }
         body {
             background-image: url("cfestlogo19.png");
             font-family: 'Open Sans', sans-serif;
@@ -24,6 +39,48 @@ margin: 3%;
 width: 1320px;
 text-indent: 3%;
 text-align: left;
+        }
+        #social ul {
+            color: white;
+            list-style: none;
+        }
+        #social ul li {
+            color: white;
+            float: right;
+            width: 75px;
+            text-indent: -50%;
+            text-align: bottom;
+        }
+        #connav ul {
+            list-style: none;
+            position: absolute;
+            vertical-align: middle;
+            text-align: right;
+            width: 202%;
+            left: -3%;
+            top: -2%;
+        }
+        #connav ul li {
+            background-color:black;
+            color: white;
+            width: 8.2%;
+            position: relative;
+            border: 1px solid black;
+            text-align: center;
+            line-height: 200 px;
+            vertical-align: middle;
+            height: 55px;
+            float: left;
+        }
+        #connav ul li:hover {
+            background-color: purple;
+        }
+        #connav a {
+            text-decoration: none;
+            color: white;
+            position: absolute;
+            right: 39%;
+            top: 15px;
         }
         body {
             background-image: url("film1.jpg");
@@ -45,6 +102,35 @@ width: 92.5%;
 text-indent: 4.5%;
 text-align: left;
         }
+        header {
+            height: 55px;
+            width: 1000px;
+        }
+        footer {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            height: 83px;
+            width: 100%;
+            position: relative;
+            background-color: black;
+            float: right;
+        }
+        #social {
+            float: right;
+        }
+        #social ul {
+            list-style: none;
+            width: 100%;
+            float: right;
+            position: relative;
+            right: 4%;
+        }
+        #social ul li {
+            color: white;
+            float: right;
+            width: 75px;
+            text-indent: -10%;
+        }
         #WISA-dances ul {
             list-style: none;
         }
@@ -60,228 +146,19 @@ text-align: left;
         li {
             list-style: none;
         }
-            .fixed-nav-bar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: 9999;
-            width: 100%;
-            height: 80px;
-            background: rgba(0, 0, 0, 0.3);
-        }
-      
-        body {
-            background-image: url("film1.jpg");
-            background-size: auto;
-            font-family: 'Open Sans', sans-serif;
-        }
-        #main {
-background-color: black;
-position: relative;
-color: #f5f0c1;
-text-indent: 5%;
-text-align: left;
-          margin-right: 1.5%;
-            margin-left: 1.5%;
-        }
-    img {
-         position: relative;
-      resize: horizontal;
-      
-    }
-        body {
-            background-image: url("film1.jpg");
-            font-family: "Open sans", sans-serif;
-            max-width: 100%;
-        }
-        header {
-            position: relative;
-            width: 100%;
-            float: center;
-        }
-        body {
-            background-color: #571d1d;
-            background-image: url("film1.jpg");
-            font-family: "Open sans", sans-serif;
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-          font-family: "Open sans", sans-serif;
-            max-width: 90%;
-            overflow-x: hidden;
-        }
-        header {
-            position: relative;
-            width: 100%;
-            float: right;
-        }
-        footer {
-            width: 100%;
-            position: relative;
-            float: right;
-        }
-        #social {
-            float: right;
-        }
-        #social ul {
-            list-style: none;
-            width: 100%;
-            float: right;
-            position: relative;
-        }
-        #social ul li {
-            color: #f0e68d;
-            float: right;
-            width: 33%;
-        }
-      
-      #social img {
-        resize: none;
-      }
-    
-    #trad {
-        max-width: inherit;
-        width: fit-content;
-        margin: 8px;
-    }
-#connav {
-    position: relative;
-    float: right;
-}
-          #connav ul {
-            list-style: none;
-            position: relative;
-            width: 360pt;
-            vertical-align: middle;
-            color: #f5f0c1;
-            float: right;
-            opacity: 1;
-            float: right;
-            margin-top: 20px;
-        }
-        #connav ul li {
-            color: #f0e68d;
-            width: 60pt;
-            position: relative;
-            text-align: center;
-            vertical-align:middle;
-            height: 40px;
-            float: left;
-            opacity: 1;
-        }
-        #connav ul li:hover {
-            background-color:#f5f0c1;
-            -webkit-text-fill-color: black;
-        }
-        #connav a {
-            text-decoration: none;
-            text-align: center;
-            top: 25%;
-            color: #f5f0c1;
-            position: relative;
-            margin-left:7px;
-            margin-right:7px;
-        }
-        #connav ul li a:hover {
-            color: black;
-        }
-        
-        body {
-            background-image: url("film1.jpg");
-            background-size: auto;
-            font-family: 'Open Sans', sans-serif;
-        }
-        #main {
-background-color: black;
-width: 1320px;
-position: relative;
-top: 40px;
-color: #f5f0c1;
-text-indent: 3%;
-text-align: left;
-margin:auto;
-        }
-        @media screen and (max-width: 480px) {
-    img {
-         width: 400px;
-    }
-}
-#connav ul {
-            list-style: none;
-            position: relative;
-            vertical-align: middle;
-            width: 125%;
-            color: #f5f0c1;
-            float: right;
-            left: 15px;
-            opacity: 1;
-            float: right;
-            z-index: 1;
-        }
-        #connav ul li {
-            color: #f0e68d;
-            width: 16%;
-            position: relative;
-            text-align: center;
-            vertical-align:middle;
-            height: 40px;
-            float: left;
-            opacity: 1;
-        }
-        #connav ul li:hover {
-            background-color:#f5f0c1;
-            -webkit-text-fill-color: black;
-        }
-        #connav a {
-            text-decoration: none;
-            text-align: center;
-            top: 25%;
-            color: #f5f0c1;
-            position: relative;
-            margin-left: 7px;
-            margin-right: 7px;
-        }
-        #connav ul li a:hover {
-            color: black;
-        }
-        body {
-            background-image: url("film1.jpg");
-            font-family: "Open sans", sans-serif;
-            max-width: 100%;
-            overflow-x: hidden;
-        }
-        header {
-            position: relative;
-            width: 100%;
-            float: center;
-        }
-      
-      h1 {
-       width: 1000px; 
-      }
-        body {
-            background-color: #571d1d;
-            background-image: url("film1.jpg");
-            font-family: "Open sans", sans-serif;
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-        header {
-            position: relative;
-            width: 600px;
-            float: right;
-        }
-        .footer {
+      .footer {
             position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
    background: rgba(0, 0, 0, 0.3);
-          height: 80px;
+        height: 80px;
    text-align: center;
         }
         #social {
             float: right;
             position: relative;
+            top: 12px;
             right: 31px;
         }
         #social ul {
@@ -327,6 +204,9 @@ margin:auto;
             margin-left: 7px;
             margin-right: 7px;
         }
+        #connav ul li a:hover {
+            color: black;
+        }
         .submenu {
             display: none;
             position: relative;
@@ -366,6 +246,16 @@ margin:auto;
      position: relative;
      width:fit-content;
  }
+      .fixed-nav-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 9999;
+            width: 100%;
+            height: 80px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+      
     </style>
   </head>
   <header>
