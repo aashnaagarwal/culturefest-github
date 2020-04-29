@@ -1,2 +1,1 @@
-# http://culturefest.github.io
-new project website
+culturefest.github.io
